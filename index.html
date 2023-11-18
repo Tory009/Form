@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>48 Формы</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <form>
+    <fieldset>
+      <legend>Контактная информация</legend>
+      <label>
+        Имя:
+        <input type="text" placeholder="Ваше имя" required>
+      </label>
+      <button type="reset">Очистить</button>
+      <br>
+      <label>
+        Телефон:
+        <input type="tel" placeholder="Номер телефона" required>
+      </label>
+      <button type="reset">Очистить</button>
+      <br>
+      <label>
+        E-mail:
+        <input type="email" placeholder="Электронная почта" required>
+      </label>
+      <button type="reset">Очистить</button>
+      <br>
+    </fieldset>
+  </form>
+  <br>
+  <form>
+    <fieldset>
+      <legend>Персональная информация</legend>
+      <label>
+        Дата рождения:
+        <input type="date" required>
+      </label>
+      <br>
+      Пол:
+      <br>
+      <div>Женщина<input type="radio" name="or"></div>
+      <div>Мужчина<input type="radio" name="or"></div>
+      <br>
+      <br>
+      <br>
+      <label>
+        Перечислите личные качества:
+        <br>
+        <textarea cols="30" rows="6" required></textarea>
+      </label>
+      <button class="textarea__reset" type="reset">Очистить</button>
+      <br>
+    </fieldset>
+    <button class="textarea_button" type="submit">Отправить информацию</button>
+  </form>
+</body>
+
+</html>

@@ -1,0 +1,21 @@
+form input,
+select,
+textarea {
+  display: block;
+  margin-left: 30px;
+  margin-right: auto;
+}
+button {
+  display: block;
+  margin-left: 125px;
+}
+.textarea__reset {
+  margin-left: 200px;
+}
+[type="radio"] {
+  display: inline-block;
+  margin-left: 5px;
+}
+div {
+  display: inline-block;
+}
